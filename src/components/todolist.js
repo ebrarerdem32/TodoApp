@@ -49,7 +49,7 @@ return(
       </form>
       <ul>
         {state.todos.map((todo,index)=>(
-          <li key={index} style={{listStyleType: "none"}}>
+          <li key={index} style={{listStyleType: "none" }} >
             {todo}
           </li>
         ))}
